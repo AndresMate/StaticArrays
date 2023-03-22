@@ -68,7 +68,7 @@ public class HandlingArray {
 	 */
 	public int[] sortSelection() {
 		int[] arraySort = new int[ array.length ];
-		arraySort=array;
+		arraySort=array.clone();
 		int i,j,menor,pos,tmp;
 		for (i = 0; i < arraySort.length; i++) {
 			menor=arraySort[i];
